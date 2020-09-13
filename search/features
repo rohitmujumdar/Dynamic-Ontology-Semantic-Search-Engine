@@ -1,0 +1,16 @@
+Project goals:
+  PHP Crawler is a simple website search for small-to-middle website.
+  The only requrements is PHP and MySQL, no shell access required.
+
+Key features: 
++ Easy install. Unpack, crawl and enjoy your website search.
++ indexer can be started from shell or just by accessing a web page
++ Configurable crawl depth
++ No daemons, apache modules or additional software required
++ Customizable search page
++ Crawler prints page size (text part only)
++ Search results are page-ranked
++ Queries are bolded in result list content
++ Multiple pages -- smoothly change page without loading new page
++ Custom templates defined in _config.php
+

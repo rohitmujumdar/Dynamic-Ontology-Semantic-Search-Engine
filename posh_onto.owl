@@ -1,0 +1,958 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2016/10/Force"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hp/ontologies/2016/10/Force">
+    <Prefix name="" IRI="http://www.semanticweb.org/hp/ontologies/2016/10/Force#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="Force" IRI="http://www.semanticweb.org/hp/ontologies/2016/10/Force#"/>
+    <Declaration>
+        <NamedIndividual IRI="#resists"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_abandonment_of_the_concept_as_superfluous_in_the_fundamental_sciences_such_as_physics_and_chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#local_weight___the_local_force_of_gravity_on_the_NAC_object__strictly_apparent_weight_force_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#differentiatesTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_operational_definition___the_weight_of_an_object_at_rest_on_the_surface_of_the_Earth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_apparent_weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#friction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#weight___not_WH_all_WH_of_WH_which_are_equivalent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gravitational_force_and_weight_thereby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#can_be"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_Sun___the_surface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jean_Buridan_s_impetus___a_precursor_to_momentum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Several_definitions_weight___not_WH_all_WH_of_WH_which"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#motion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#time_and_space_to_be_absolute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_gravity_on_the_surface_of_the_Moon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#as_the_apparent_weight_of_the_object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#example___an_object_with_a_mass_of_one_kilogram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_web"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_mass___is_meant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#levitation_and_mechanical_suspension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#essentially_framedependent_quantities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#is"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a_state_of_free_fall___the_weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#velocity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#either_a_unit_of_force_or_a_unit_of_mass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#absolute_weight_to_earth_and_absolute_levity_to_fire"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#one_of_two_methods"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inerts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#potential_energy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#significant_advances_in_the_concept_of_weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#considerable_further_development_of_the_concept_of_weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scale_in_an_accelerating_elevator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#became_fundamentally_separate_from"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Newton_time_and_space"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#is_AD_usually_taken_to_be"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#may_be_AD_similarly_affected_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_effect_of_the_centrifugal_force_from_the_Earth_s_rotation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#maintains"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_concept_of_gravitas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a_different_gravitational_field___for_example___on_the_surface_of_the_Moon___an_object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_table_below"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#acceleration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gravity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#units"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#This"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_standard_masses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_factory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_ancient_Greek_philosophers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inherent_properties_of_objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The___surface__"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#isConvertedTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discussion_of_the_concepts_of_heaviness__weight__and_lightness__levity_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#is_AD_commonly_measured_using"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#videos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#These"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a_scale_in_a_gravitational_field"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operational__CONJ_rather_than_definitions_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#considered"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spring_scale_or_hydraulic_or_pneumatic_scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#opposite_and_equal_force_by_the_support_on_the_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#standard_gravity___X_not_the_actual_local_force_of_gravity_on_the_object"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#displaces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#momentum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a_weight_of_Q_about__newtons_on_the_surface_of_the_Earth___and_Q_about_onesixth_as_much_on_the_Moon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#would_be"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#force"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#weights__"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#only_about_onesixth_as_strong_as_on_the_surface_of_the_Earth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relativity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_teaching_of_physics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#can_have"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#governs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#is_used_SBA_WHAD_when___AD_strictly__"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kinetic_energy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#transformsInto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inertia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CONJ_rather_than_definitions__had___however___been_around_much_longer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#United_States_customary_units___the_pound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_introduction_of_Newton_s_laws_of_motion_and_the_development_of_Newton_s_law_of_universal_gravitation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#performs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_force_on_the_object_due_to_gravity"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#images"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#might_be_said_to_have"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#most_practical_everyday_situations_the_word___weight_____mass__"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#remained_important_in"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#is_AD_usually_referred_to"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#directlyProportionalTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tables_of_the_gravitational_acceleration_at_different_locations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_photosphere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#In_science_and_engineering___the_weight_of_an_object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_th_century___Galileo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zero_weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_cloud_tops_of_the_gas_giants__Jupiter___Saturn___Uranus_and_Neptune_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comparative_gravitational_accelerations_at_the_surface_of_the_Sun___the_Earth_s_moon___each_of_the_planets_in_the_solar_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a_significantly_different_weight_than_on_Earth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#this_calibration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#place_to_place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#there"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#the_th_century___the_Newtonian_concepts_of_absolute_time_and_space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#most_modern_scientific_work___physical_quantities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#He"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#is_taken_to_mean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#accelerates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laws_of_motion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a_result___a_floating_balloon_or_an_object_floating_in_water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_gravitational_acceleration"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#force"/>
+        <NamedIndividual IRI="#accelerates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gravity"/>
+        <NamedIndividual IRI="#accelerates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mass"/>
+        <NamedIndividual IRI="#accelerates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#velocity"/>
+        <NamedIndividual IRI="#accelerates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gravitational_force_and_weight_thereby"/>
+        <NamedIndividual IRI="#became_fundamentally_separate_from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#essentially_framedependent_quantities"/>
+        <NamedIndividual IRI="#became_fundamentally_separate_from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_concept"/>
+        <NamedIndividual IRI="#became_fundamentally_separate_from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_teaching_of_physics"/>
+        <NamedIndividual IRI="#became_fundamentally_separate_from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#United_States_customary_units___the_pound"/>
+        <NamedIndividual IRI="#can_be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#either_a_unit_of_force_or_a_unit_of_mass"/>
+        <NamedIndividual IRI="#can_be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#a_different_gravitational_field___for_example___on_the_surface_of_the_Moon___an_object"/>
+        <NamedIndividual IRI="#can_have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#a_significantly_different_weight_than_on_Earth"/>
+        <NamedIndividual IRI="#can_have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#He"/>
+        <NamedIndividual IRI="#considered"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tables_of_the_gravitational_acceleration_at_different_locations"/>
+        <NamedIndividual IRI="#considered"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#a_scale_in_a_gravitational_field"/>
+        <NamedIndividual IRI="#considered"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#absolute_weight_to_earth_and_absolute_levity_to_fire"/>
+        <NamedIndividual IRI="#considered"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relativity"/>
+        <NamedIndividual IRI="#considered"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#scale_in_an_accelerating_elevator"/>
+        <NamedIndividual IRI="#considered"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_th_century___the_Newtonian_concepts_of_absolute_time_and_space"/>
+        <NamedIndividual IRI="#considered"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_web"/>
+        <NamedIndividual IRI="#considered"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#acceleration"/>
+        <NamedIndividual IRI="#differentiatesTo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#velocity"/>
+        <NamedIndividual IRI="#differentiatesTo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kinetic_energy"/>
+        <NamedIndividual IRI="#directlyProportionalTo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#velocity"/>
+        <NamedIndividual IRI="#directlyProportionalTo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mass"/>
+        <NamedIndividual IRI="#displaces"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#work"/>
+        <NamedIndividual IRI="#displaces"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#force"/>
+        <NamedIndividual IRI="#governs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laws_of_motion"/>
+        <NamedIndividual IRI="#governs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#a_weight_of_Q_about__newtons_on_the_surface_of_the_Earth___and_Q_about_onesixth_as_much_on_the_Moon"/>
+        <NamedIndividual IRI="#has"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#example___an_object_with_a_mass_of_one_kilogram"/>
+        <NamedIndividual IRI="#has"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#force"/>
+        <NamedIndividual IRI="#inerts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#inertia"/>
+        <NamedIndividual IRI="#inerts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#The_gravity_on_the_surface_of_the_Moon"/>
+        <NamedIndividual IRI="#is"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#only_about_onesixth_as_strong_as_on_the_surface_of_the_Earth"/>
+        <NamedIndividual IRI="#is"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kinetic_energy"/>
+        <NamedIndividual IRI="#isConvertedTo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#potential_energy"/>
+        <NamedIndividual IRI="#isConvertedTo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#The_gravitational_acceleration"/>
+        <NamedIndividual IRI="#is_AD_commonly_measured_using"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#most_modern_scientific_work___physical_quantities"/>
+        <NamedIndividual IRI="#is_AD_commonly_measured_using"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#place_to_place"/>
+        <NamedIndividual IRI="#is_AD_commonly_measured_using"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#units"/>
+        <NamedIndividual IRI="#is_AD_commonly_measured_using"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#The_standard_masses"/>
+        <NamedIndividual IRI="#is_AD_usually_referred_to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#_mass___is_meant"/>
+        <NamedIndividual IRI="#is_AD_usually_referred_to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#most_practical_everyday_situations_the_word___weight_____mass__"/>
+        <NamedIndividual IRI="#is_AD_usually_referred_to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#weights__"/>
+        <NamedIndividual IRI="#is_AD_usually_referred_to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Discussion_of_the_concepts_of_heaviness__weight__and_lightness__levity_"/>
+        <NamedIndividual IRI="#is_AD_usually_taken_to_be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#The___surface__"/>
+        <NamedIndividual IRI="#is_AD_usually_taken_to_be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_ancient_Greek_philosophers"/>
+        <NamedIndividual IRI="#is_AD_usually_taken_to_be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_cloud_tops_of_the_gas_giants__Jupiter___Saturn___Uranus_and_Neptune_"/>
+        <NamedIndividual IRI="#is_AD_usually_taken_to_be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Several_definitions_weight___not_WH_all_WH_of_WH_which"/>
+        <NamedIndividual IRI="#is_taken_to_mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#The_introduction_of_Newton_s_laws_of_motion_and_the_development_of_Newton_s_law_of_universal_gravitation"/>
+        <NamedIndividual IRI="#is_taken_to_mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#considerable_further_development_of_the_concept_of_weight"/>
+        <NamedIndividual IRI="#is_taken_to_mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#local_weight___the_local_force_of_gravity_on_the_NAC_object__strictly_apparent_weight_force_"/>
+        <NamedIndividual IRI="#is_taken_to_mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#spring_scale_or_hydraulic_or_pneumatic_scale"/>
+        <NamedIndividual IRI="#is_taken_to_mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_Sun___the_surface"/>
+        <NamedIndividual IRI="#is_taken_to_mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_effect_of_the_centrifugal_force_from_the_Earth_s_rotation"/>
+        <NamedIndividual IRI="#is_taken_to_mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_factory"/>
+        <NamedIndividual IRI="#is_taken_to_mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_operational_definition___the_weight_of_an_object_at_rest_on_the_surface_of_the_Earth"/>
+        <NamedIndividual IRI="#is_taken_to_mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_photosphere"/>
+        <NamedIndividual IRI="#is_taken_to_mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#this_calibration"/>
+        <NamedIndividual IRI="#is_taken_to_mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#weight___not_WH_all_WH_of_WH_which_are_equivalent"/>
+        <NamedIndividual IRI="#is_taken_to_mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CONJ_rather_than_definitions__had___however___been_around_much_longer"/>
+        <NamedIndividual IRI="#is_used_SBA_WHAD_when___AD_strictly__"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Operational__CONJ_rather_than_definitions_"/>
+        <NamedIndividual IRI="#is_used_SBA_WHAD_when___AD_strictly__"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#momentum"/>
+        <NamedIndividual IRI="#maintains"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#velocity"/>
+        <NamedIndividual IRI="#maintains"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jean_Buridan_s_impetus___a_precursor_to_momentum"/>
+        <NamedIndividual IRI="#may_be_AD_similarly_affected_by"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#The_concept_of_gravitas"/>
+        <NamedIndividual IRI="#may_be_AD_similarly_affected_by"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#a_result___a_floating_balloon_or_an_object_floating_in_water"/>
+        <NamedIndividual IRI="#may_be_AD_similarly_affected_by"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#zero_weight"/>
+        <NamedIndividual IRI="#may_be_AD_similarly_affected_by"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weight"/>
+        <NamedIndividual IRI="#might_be_said_to_have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#a_state_of_free_fall___the_weight"/>
+        <NamedIndividual IRI="#might_be_said_to_have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mass"/>
+        <NamedIndividual IRI="#might_be_said_to_have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#significant_advances_in_the_concept_of_weight"/>
+        <NamedIndividual IRI="#might_be_said_to_have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_th_century___Galileo"/>
+        <NamedIndividual IRI="#might_be_said_to_have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#zero"/>
+        <NamedIndividual IRI="#might_be_said_to_have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#force"/>
+        <NamedIndividual IRI="#performs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#work"/>
+        <NamedIndividual IRI="#performs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#opposite_and_equal_force_by_the_support_on_the_body"/>
+        <NamedIndividual IRI="#remained_important_in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#there"/>
+        <NamedIndividual IRI="#remained_important_in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#friction"/>
+        <NamedIndividual IRI="#resists"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#motion"/>
+        <NamedIndividual IRI="#resists"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kinetic_energy"/>
+        <NamedIndividual IRI="#transformsInto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#potential_energy"/>
+        <NamedIndividual IRI="#transformsInto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#In_science_and_engineering___the_weight_of_an_object"/>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Newton_time_and_space"/>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#The_apparent_weight"/>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#The_table_below"/>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#These"/>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#This"/>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weight"/>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#as_the_apparent_weight_of_the_object"/>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#comparative_gravitational_accelerations_at_the_surface_of_the_Sun___the_Earth_s_moon___each_of_the_planets_in_the_solar_system"/>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#inherent_properties_of_objects"/>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#levitation_and_mechanical_suspension"/>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#one_of_two_methods"/>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_force_on_the_object_due_to_gravity"/>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#time_and_space_to_be_absolute"/>
+        <NamedIndividual IRI="#were_AD_typically_viewed_as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#This"/>
+        <NamedIndividual IRI="#would_be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#standard_gravity___X_not_the_actual_local_force_of_gravity_on_the_object"/>
+        <NamedIndividual IRI="#would_be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_abandonment_of_the_concept_as_superfluous_in_the_fundamental_sciences_such_as_physics_and_chemistry"/>
+        <NamedIndividual IRI="#would_be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#the_object"/>
+        <NamedIndividual IRI="#would_be"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#acceleration</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">When we discussed velocity and speed, we assumed a constant velocity. However, this is rarely the case in the real world. In the real world the velocity of an object in motion is often changing.
+What is acceleration?
+ Acceleration is the measurement of change in an object&apos;s velocity. When you press down on the gas pedal in a car, the car surges forward going faster and faster. This change in velocity is acceleration.
+ The equation for calculating acceleration is: 
+Acceleration = (change in velocity)/(change in time) or a = Δv ÷ Δt 
+How to Measure Acceleration 
+The standard unit of measurement for acceleration is meters per second squared or m/s2. You can calculate this from the above formula where velocity is meters per second and time is in seconds. 
+Acceleration is a Vector
+ In physics acceleration not only has a magnitude (which is the m/s2 number we discussed above), but also has a direction. This makes acceleration a vector.
+ Force and Acceleration
+ Newton&apos;s second law of motion states that the force on an object equals the mass times the acceleration. 
+This is written in the following equation:
+ Force = mass * acceleration or F = ma 
+We can use this formula to also figure out the acceleration if we know the mass and force on an object. 
+This formula is: acceleration = force/mass or a = F/m
+;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#images"/>
+        <IRI>#acceleration</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://en.wikipedia.org/wiki/Acceleration#/media/File:Gravity_gravita_grave.gif;https://ka-perseus-images.s3.amazonaws.com/ee08cfdce4bdba3844612f517e4daf28803f3c46.png;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#videos"/>
+        <IRI>#acceleration</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.youtube.com/watch?v=e5Gl2LLLAGo;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#force</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">What is force? 
+In physics, force is a push or pull on an object. A force can cause an object to accelerate, slow down, remain in place, or change shape.
+How to Measure Force 
+The unit of measure for force is the newton which is abbreviated as &quot;N&quot;. One newton is the force needed to accelerate one gram of mass by one centimeter per second squared. Other units of force include the dyne and the pound-force. 
+Force, Mass, and Acceleration
+ Force can be figured out if you know the mass and acceleration of an object. 
+This equation comes from Newton&apos;s Second Law of Motion:
+ f = m * a Where f = force, m = mass, and a = acceleration. 
+Forces and Vectors
+ Force not only has a magnitude (which is what we get in newtons when we use the equation above), but it also has a direction. This makes force a vector. Vectors are shown by an arrow that indicates the direction of the force and a number that indicates the magnitude. See the pictures to the right to see how the arrow is used to show the direction of the force.
+;
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#images"/>
+        <IRI>#force</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.physics4kids.com/files/art/motion_gravity1_240.jpg;https://s-media-cache-ak0.pinimg.com/originals/97/9f/a8/979fa8e6d1320b6aa16b85ba31f659de.jpg;http://www.ducksters.com/science/physics/force_examples.png;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#videos"/>
+        <IRI>#force</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.youtube.com/watch?v=uoKo3DbfYZk;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#friction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Friction is the resistance of motion when one object rubs against another. Anytime two objects rub against each other, they cause friction. Friction works against the motion and acts in the opposite direction. 
+Friction and Energy
+ When one object is sliding on another it starts to slow down due to friction. This means it loses energy. However, the energy doesn&apos;t disappear. It changes from moving energy (also call kinetic energy) to heat energy. This is why we rub our hands together when it&apos;s cold. By rubbing them together we generate friction and, therefore, heat.
+ The force F of friction pushes back on the block.
+ Preventing Friction
+ In some cases we want to prevent friction so it&apos;s easier to move. A good example of this is a ball or wheel. They roll to help reduce friction. Another way to reduce friction is with a lubricant like grease or oil. Machines and engines use grease and oil to reduce friction and wear so they can last longer. Another way to reduce friction is to change the types of materials in contact with one another. For example, ice contacting with steel would produce less friction than rubber would on concrete. This is why ice skates slide so easily on the ice, but you don&apos;t slip when wearing rubber shoes on the sidewalk. These different materials are said to have different &quot;coefficients of friction&quot;. Using Friction Friction is also a great help to us. After all, we would all just be sliding around everywhere if there wasn&apos;t friction to keep us steady. Friction is used in car brakes, when we walk or climb a hill, making a fire, skiing down a hill, and more. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#images"/>
+        <IRI>#friction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.ducksters.com/science/friction_block.png;http://www-cdn.sciencebuddies.org/Files/6805/6/friction-surface.png;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#videos"/>
+        <IRI>#friction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#gravity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gravity is the mysterious force that makes everything fall down towards the Earth. But what is it?
+ It turns out that all objects have gravity. It&apos;s just that some objects, like the Earth and the Sun, have a lot more gravity than others. How much gravity an object has depends on how big it is. To be specific, how much mass it has. It also depends on how close you are to the object. The closer you are, the stronger the gravity.
+ Why is gravity important? 
+Gravity is very important to our everyday lives. Without Earth&apos;s gravity we would fly right off it. We&apos;d all have to be strapped down. If you kicked a ball, it would fly off forever. While it might be fun to try for a few minutes, we certainly couldn&apos;t live without gravity.
+;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#images"/>
+        <IRI>#gravity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.ducksters.com/science/gravity_solar_system.jpg;https://s-media-cache-ak0.pinimg.com/736x/77/82/82/778282cc5db99fec9e3c82a78b1941a8.jpg;http://www.qrg.northwestern.edu/projects/vss/docs/media/space-environment/freefall.gif;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#videos"/>
+        <IRI>#gravity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.youtube.com/watch?v=ljRlB6TuMOU;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#inertia</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inertia is the resistance of any physical object to any change in its state of motion; this includes changes to its speed, direction, or state of rest. It is the tendency of objects to keep moving in a straight line at constant velocity. The principle of inertia is one of the fundamental principles of classical physics that are used to describe the motion of objects and how they are affected by applied forces. Inertia comes from the Latin word, iners, meaning idle, sluggish. Inertia is one of the primary manifestations of mass, which is a quantitative property of physical systems.
+;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#images"/>
+        <IRI>#inertia</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://images.tutorvista.com/cms/images/95/inertia-flicked-cardboard-coin-tumbler-experiment.jpeg;http://2zilbq1thjxt5mpp496ywf13.wpengine.netdna-cdn.com/wp-content/uploads/2016/04/what-is-inertia.png;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#kinetic_energy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kinetic energy is the energy an object has due to its motion. As long as an object is moving at the same velocity, it will maintain the same kinetic energy. The kinetic energy of an object is calculated from the velocity and the mass of the object. As you can see from the equation below, the velocity is squared and can have a significant impact on the kinetic energy.
+ Here is the equation for calculating kinetic energy (KE): KE = 1/2 * m * v2 where m = mass and v = velocity
+
+ How to Measure Kinetic Energy 
+The standard unit for kinetic energy is the joule (J). The joule is the standard unit for energy in general. Other units for energy include the newton-meter (Nm) and the kilogram meter squared over seconds squared (kg m2/s2). Kinetic energy is a scalar quantity, which means it only has a magnitude and not a direction. It is not a vector.
+
+How is it different from potential energy? 
+Kinetic energy is due to an object&apos;s motion while potential energy is due to an object&apos;s position or state. When you calculate an object&apos;s kinetic energy, its velocity is an important factor. Velocity, however, has nothing to do with an object&apos;s potential energy.;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#images"/>
+        <IRI>#kinetic_energy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.ducksters.com/science/physics/kinetic_energy.gif;http://www.differencebetween.info/sites/default/files/images/3/kineticenergy.jpg;http://science.jrank.org/kids/article_images/wind_p04.jpg;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#laws_of_motion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A force is anything that can change the state of motion of an object, like a push or a pull. You use force when you push a letter on the computer keyboard or when you kick a ball. Forces are everywhere. Gravity acts as a constant force on your body, keeping you secure on planet Earth so you don&apos;t float away. To describe a force we use the direction and strength. For example when you kick a ball you are exerting force in a specific direction. That is the direction the ball will travel. Also, the harder you kick the ball the stronger the force you place on it and the farther it will go.
+ Laws of Motion 
+A scientist named Isaac Newton came up with three Laws of Motion to describe how things move scientifically. He also described how gravity works, which is an important force that affects everything. 
+First Law of Motion
+ The first law says that any object in motion will continue to move in the same direction and speed unless forces act on it. That means if you kick a ball it will fly forever unless some sort of forces act on it! As strange as this may sound, it&apos;s true. When you kick a ball, forces start to act on it immediately. These include resistance or friction from the air and gravity. Gravity pulls the ball down to the ground and the air resistance slows it down. 
+Second Law of Motion
+ The second law states that the greater the mass of an object, the more force it will take to accelerate the object. There is even an equation that says Force = mass x acceleration or F=ma. This also means that the harder you kick a ball the farther it will go. This seams kind of obvious to us, but having an equation to figure out the math and science is very helpful to scientists.
+ Third Law of Motion 
+The third law states that for every action, there is an equal and opposite reaction. This means that there are always two forces that are the same. In the example where you kicked the ball there is the force of your foot on the ball, but there is also the same amount of force that the ball puts on your foot. This force is in the exact opposite direction.;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#images"/>
+        <IRI>#laws_of_motion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://spaceflightsystems.grc.nasa.gov/education/rocket/Images/newton1r.gif;https://spaceflightsystems.grc.nasa.gov/education/rocket/Images/newton2r.gif;https://spaceflightsystems.grc.nasa.gov/education/rocket/Images/newton3r.gif;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#mass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mass is a measurement of how much matter is in an object. Mass is a combination of the total number of atoms, the density of the atoms, and the type of atoms in an object. How to Measure Mass
+ Mass is usually measured in kilograms which is abbreviated as kg. In physics there are different ways of determining the quantity of mass. Two of the most commonly used are inertial mass and gravitational mass. Inertial mass - Inertial mass is determined by how much the object resists acceleration. For example, if you push two objects under the same conditions with the same amount of force, the object with the lower mass will accelerate faster. 
+Gravitational mass - Gravitational mass is a measurement of how much gravity an object exerts on other objects. It can also be the measurement of how much gravity an object experiences from another object. When scientists want to express mass in terms of atoms and molecules they use the atomic mass unit which is abbreviated &quot;u&quot;. One atomic mass unit is equal to 1/12 of the mass of carbon-12.
+ What is the difference between mass and weight? 
+Weight is different from mass. Weight is the measure of the force of gravity on an object. The mass of an object will never change, but the weight of an item can change based on its location. For example, you may weigh 100 pounds on Earth, but in outer space you would be weightless. However, you will always have the same mass on Earth as you have in outer space. ;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#images"/>
+        <IRI>#mass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://s4.thingpic.com/images/6Y/GFShu79m3SFb3Mw24Y7pNoiG.jpeg;https://i.ytimg.com/vi/jPnUA1Z8FTg/maxresdefault.jpg;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#momentum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Momentum is a measurement of mass in motion. Any object that is moving has momentum. In physics, momentum of an object is equal to the mass times the velocity. momentum = mass * velocity Momentum is usually abbreviated using the letter &quot;p&quot; making the equation look like: p = m * v where p is the momentum, m is the mass, and v is the velocity. From this equation you can see that both the velocity of the object and the mass have an equal impact on the amount of momentum. You have more momentum when you are running than when you are walking. By the same token, if a car and bicycle are traveling down the street at the same velocity, the car will have more momentum. How to Measure Momentum 
+Momentum is typically measured in kilograms times meters per second (kg*m/s) or newton-second (N s). Momentum is a Vector Because velocity is a vector, momentum is also a vector. This means that in addition to the magnitude of momentum (which is given by p = m * v), momentum also has a direction. The direction of momentum is shown by an arrow or vector.;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#images"/>
+        <IRI>#momentum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.calctool.org/CALC/phys/newtonian/momentum.png;http://ministry127.com/sites/default/files/images/article_images/building-momentum021214.jpg;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#velocity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Rate of change in displacement.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#weight</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">In science and engineering, the weight of an object is usually taken to be the force on the object due to gravity.[1][2] Weight is a vector whose magnitude (a scalar quantity), often denoted by an italic letter W, is the product of the mass m of the object and the magnitude of the local gravitational acceleration g;[3] thus: W = mg. The unit of measurement for weight is that of force, which in the International System of Units (SI) is the newton. For example, an object with a mass of one kilogram has a weight of about 9.8 newtons on the surface of the Earth, and about one-sixth as much on the Moon. In this sense of weight, a body can be weightless only if it is far away (in principle infinitely far away) from any other mass. Although weight and mass are scientifically distinct quantities, the terms are often confused with each other in everyday use (i.e. comparing and converting force weight in pounds to mass in kilograms and vice versa).[4] There is also a rival tradition within Newtonian physics and engineering which sees weight as that which is measured when one uses scales. There the weight is a measure of the magnitude of the reaction force exerted on a body. Typically, in measuring an object&apos;s weight, the object is placed on scales at rest with respect to the earth, but the definition can be extended to other states of motion. Thus, in a state of free fall, the weight would be zero. In this second sense of weight, terrestrial objects can be weightless. Ignoring air resistance, the famous apple falling from the tree, on its way to meet the ground near Isaac Newton, is weightless. Further complications in elucidating the various concepts of weight have to do with the theory of relativity according to which gravity is modelled as a consequence of the curvature of spacetime. In the teaching community, a considerable debate has existed for over half a century on how to define weight for their students. The current situation is that a multiple set of concepts co-exist and find use in their various contexts.[2]   Discussion of the concepts of heaviness (weight) and lightness (levity) date back to the ancient Greek philosophers. These were typically viewed as inherent properties of objects. Plato described weight as the natural tendency of objects to seek their kin. To Aristotle weight and levity represented the tendency to restore the natural order of the basic elements: air, earth, fire and water. He ascribed absolute weight to earth and absolute levity to fire. Archimedes saw weight as a quality opposed to buoyancy, with the conflict between the two determining if an object sinks or floats. The first operational definition of weight was given by Euclid, who defined weight as: &quot;weight is the heaviness or lightness of one thing, compared to another, as measured by a balance.&quot;[2] Operational balances (rather than definitions) had, however, been around much longer.[6] According to Aristotle, weight was the direct cause of the falling motion of an object, the speed of the falling object was supposed to be directly proportionate to the weight of the object. As medieval scholars discovered that in practice the speed of a falling object increased with time, this prompted a change to the concept of weight to maintain this cause effect relationship. Weight was split into a &quot;still weight&quot; or pondus, which remained constant, and the actual gravity or gravitas, which changed as the object fell. The concept of gravitas was eventually replaced by Jean Buridan&apos;s impetus, a precursor to momentum.[2] The rise of the Copernican view of the world led to the resurgence of the Platonic idea that like objects attract but in the context of heavenly bodies. In the 17th century, Galileo made significant advances in the concept of weight. He proposed a way to measure the difference between the weight of a moving object and an object at rest. Ultimately, he concluded weight was proportionate to the amount of matter of an object, and not the speed of motion as supposed by the Aristotelean view of physics.[2] The introduction of Newton&apos;s laws of motion and the development of Newton&apos;s law of universal gravitation led to considerable further development of the concept of weight. Weight became fundamentally separate from mass. Mass was identified as a fundamental property of objects connected to their inertia, while weight became identified with the force of gravity on an object and therefore dependent on the context of the object. In particular, Newton considered weight to be relative to another object causing the gravitational pull, e.g. the weight of the Earth towards the Sun.[2] Newton considered time and space to be absolute. This allowed him to consider concepts as true position and true velocity.[clarification needed] Newton also recognized that weight as measured by the action of weighing was affected by environmental factors such as buoyancy. He considered this a false weight induced by imperfect measurement conditions, for which he introduced the term apparent weight as compared to the true weight defined by gravity.[2] Although Newtonian physics made a clear distinction between weight and mass, the term weight continued to be commonly used when people meant mass. This led the 3rd General Conference on Weights and Measures (CGPM) of 1901 to officially declare &quot;The word weight denotes a quantity of the same nature as a force: the weight of a body is the product of its mass and the acceleration due to gravity&quot;, thus distinguishing it from mass for official usage. In the 20th century, the Newtonian concepts of absolute time and space were challenged by relativity. Einstein&apos;s principle of equivalence put all observers, moving or accelerating, on the same footing. This led to an ambiguity as to what exactly is meant by the force of gravity and weight. A scale in an accelerating elevator cannot be distinguished from a scale in a gravitational field. Gravitational force and weight thereby became essentially frame-dependent quantities. This prompted the abandonment of the concept as superfluous in the fundamental sciences such as physics and chemistry. Nonetheless, the concept remained important in the teaching of physics. The ambiguities introduced by relativity led, starting in the 1960s, to considerable debate in the teaching community as how to define weight for their students, choosing between a nominal definition of weight as the force due to gravity or an operational definition defined by the act of weighing.[2] Several definitions exist for weight, not all of which are equivalent.[3][7][8][9] The most common definition of weight found in introductory physics textbooks defines weight as the force exerted on a body by gravity.[1][9] This is often expressed in the formula W = mg, where W is the weight, m the mass of the object, and g gravitational acceleration. In 1901, the 3rd General Conference on Weights and Measures (CGPM) established this as their official definition of weight: &quot;The word weight denotes a quantity of the same nature[Note 1] as a force: the weight of a body is the product of its mass and the acceleration due to gravity.&quot; This resolution defines weight as a vector, since force is a vector quantity. However, some textbooks also take weight to be a scalar by defining: &quot;The weight W of a body is equal to the magnitude Fg of the gravitational force on the body.&quot;[13] The gravitational acceleration varies from place to place. Sometimes, it is simply taken to have a standard value of 9.80665 m/s2, which gives the standard weight.[11] The force whose magnitude is equal to mg newtons is also known as the m kilogram weight (which term is abbreviated to kg-wt)[14] In the operational definition, the weight of an object is the force measured by the operation of weighing it, which is the force it exerts on its support.[7] Since, W=downward force on the body by the centre of earth, and there is no acceleration in the body. So, there exists opposite and equal force by the support on the body. Also it is equal to the force exerted by the body on its support because action and reaction have same numerical value and opposite direction. This can make a considerable difference, depending on the details; for example, an object in free fall exerts little if any force on its support, a situation that is commonly referred to as weightlessness. However, being in free fall does not affect the weight according to the gravitational definition. Therefore, the operational definition is sometimes refined by requiring that the object be at rest.[citation needed] However, this raises the issue of defining &quot;at rest&quot; (usually being at rest with respect to the Earth is implied by using standard gravity[citation needed]). In the operational definition, the weight of an object at rest on the surface of the Earth is lessened by the effect of the centrifugal force from the Earth&apos;s rotation. The operational definition, as usually given, does not explicitly exclude the effects of buoyancy, which reduces the measured weight of an object when it is immersed in a fluid such as air or water. As a result, a floating balloon or an object floating in water might be said to have zero weight. In the ISO International standard ISO 80000-4(2006),[15] describing the basic physical quantities and units in mechanics as a part of the International standard ISO/IEC 80000, the definition of weight is given as: Definition Remarks The definition is dependent on the chosen frame of reference. When the chosen frame is co-moving with the object in question then this definition precisely agrees with the operational definition.[8] If the specified frame is the surface of the Earth, the weight according to the ISO and gravitational definitions differ only by the centrifugal effects due to the rotation of the Earth. In many real world situations the act of weighing may produce a result that differs from the ideal value provided by the definition used. This is usually referred to as the apparent weight of the object. A common example of this is the effect of buoyancy, when an object is immersed in a fluid the displacement of the fluid will cause an upward force on the object, making it appear lighter when weighed on a scale.[16] The apparent weight may be similarly affected by levitation and mechanical suspension. When the gravitational definition of weight is used, the operational weight measured by an accelerating scale is often also referred to as the apparent weight.[17] In modern scientific usage, weight and mass are fundamentally different quantities: mass is an &quot;extrinsic&quot; (extensive) property of matter, whereas weight is a force that results from the action of gravity on matter: it measures how strongly the force of gravity pulls on that matter. However, in most practical everyday situations the word &quot;weight&quot; is used when, strictly, &quot;mass&quot; is meant.[4][18] For example, most people would say that an object &quot;weighs one kilogram&quot;, even though the kilogram is a unit of mass. The distinction between mass and weight is unimportant for many practical purposes because the strength of gravity does not vary too much on the surface of the Earth. In a uniform gravitational field, the gravitational force exerted on an object (its weight) is directly proportional to its mass. For example, object A weighs 10 times as much as object B, so therefore the mass of object A is 10 times greater than that of object B. This means that an object&apos;s mass can be measured indirectly by its weight, and so, for everyday purposes, weighing (using a weighing scale) is an entirely acceptable way of measuring mass. Similarly, a balance measures mass indirectly by comparing the weight of the measured item to that of an object(s) of known mass. Since the measured item and the comparison mass are in virtually the same location, so experiencing the same gravitational field, the effect of varying gravity does not affect the comparison or the resulting measurement. The Earth&apos;s gravitational field is not uniform but can vary by as much as 0.5%[19] at different locations on Earth (see Earth&apos;s gravity). These variations alter the relationship between weight and mass, and must be taken into account in high precision weight measurements that are intended to indirectly measure mass. Spring scales, which measure local weight, must be calibrated at the location at which the objects will be used to show this standard weight, to be legal for commerce.[citation needed] This table shows the variation of acceleration due to gravity (and hence the variation of weight) at various locations on the Earth&apos;s surface.[20] The historic use of &quot;weight&quot; for &quot;mass&quot; also persists in some scientific terminology – for example, the chemical terms &quot;atomic weight&quot;, &quot;molecular weight&quot;, and &quot;formula weight&quot;, can still be found rather than the preferred &quot;atomic mass&quot; etc. In a different gravitational field, for example, on the surface of the Moon, an object can have a significantly different weight than on Earth. The gravity on the surface of the Moon is only about one-sixth as strong as on the surface of the Earth. A one-kilogram mass is still a one-kilogram mass (as mass is an extrinsic property of the object) but the downward force due to gravity, and therefore its weight, is only one-sixth of what the object would have on Earth. So a man of mass 180 pounds weighs only about 30 pounds-force when visiting the Moon. In most modern scientific work, physical quantities are measured in SI units. The SI unit of weight is the same as that of force: the newton (N) – a derived unit which can also be expressed in SI base units as kg·m/s2 (kilograms times meters per second squared).[18] In commercial and everyday use, the term &quot;weight&quot; is usually used to mean mass, and the verb &quot;to weigh&quot; means &quot;to determine the mass of&quot; or &quot;to have a mass of&quot;. Used in this sense, the proper SI unit is the kilogram (kg).[18] In United States customary units, the pound can be either a unit of force or a unit of mass.[21] Related units used in some distinct, separate subsystems of units include the poundal and the slug. The poundal is defined as the force necessary to accelerate an object of one-pound mass at 1 ft/s2, and is equivalent to about 1/32.2 of a pound-force. The slug is defined as the amount of mass that accelerates at 1 ft/s2 when one pound-force is exerted on it, and is equivalent to about 32.2 pounds (mass). The kilogram-force is a non-SI unit of force, defined as the force exerted by a one kilogram mass in standard Earth gravity (equal to 9.80665 newtons exactly). The dyne is the cgs unit of force and is not a part of SI, while weights measured in the cgs unit of mass, the gram, remain a part of SI. The sensation of weight is caused by the force exerted by fluids in the vestibular system, a three-dimensional set of tubes in the inner ear.[dubious – discuss] It is actually the sensation of g-force, regardless of whether this is due to being stationary in the presence of gravity, or, if the person is in motion, the result of any other forces acting on the body such as in the case of acceleration or deceleration of a lift, or centrifugal forces when turning sharply. Weight is commonly measured using one of two methods. A spring scale or hydraulic or pneumatic scale measures local weight, the local force of gravity on the object (strictly apparent weight force). Since the local force of gravity can vary by up to 0.5% at different locations, spring scales will measure slightly different weights for the same object (the same mass) at different locations. To standardize weights, scales are always calibrated to read the weight an object would have at a nominal standard gravity of 9.80665 m/s2 (approx. 32.174 ft/s2). However, this calibration is done at the factory. When the scale is moved to another location on Earth, the force of gravity will be different, causing a slight error. So to be highly accurate, and legal for commerce, spring scales must be re-calibrated at the location at which they will be used. A balance on the other hand, compares the weight of an unknown object in one scale pan to the weight of standard masses in the other, using a lever mechanism – a lever-balance. The standard masses are often referred to, non-technically, as &quot;weights&quot;. Since any variations in gravity will act equally on the unknown and the known weights, a lever-balance will indicate the same value at any location on Earth. Therefore, balance &quot;weights&quot; are usually calibrated and marked in mass units, so the lever-balance measures mass by comparing the Earth&apos;s attraction on the unknown object and standard masses in the scale pans. In the absence of a gravitational field, away from planetary bodies (e.g. space), a lever-balance would not work, but on the Moon, for example, it would give the same reading as on Earth. Some balances can be marked in weight units, but since the weights are calibrated at the factory for standard gravity, the balance will measure standard weight, i.e. what the object would weigh at standard gravity, not the actual local force of gravity on the object. If the actual force of gravity on the object is needed, this can be calculated by multiplying the mass measured by the balance by the acceleration due to gravity – either standard gravity (for everyday work) or the precise local gravity (for precision work). Tables of the gravitational acceleration at different locations can be found on the web. Gross weight is a term that is generally found in commerce or trade applications, and refers to the total weight of a product and its packaging. Conversely, net weight refers to the weight of the product alone, discounting the weight of its container or packaging; and tare weight is the weight of the packaging alone. The table below shows comparative gravitational accelerations at the surface of the Sun, the Earth&apos;s moon, each of the planets in the solar system. The “surface” is taken to mean the cloud tops of the gas giants (Jupiter, Saturn, Uranus and Neptune). For the Sun, the surface is taken to mean the photosphere. The values in the table have not been de-rated for the centrifugal effect of planet rotation (and cloud-top wind speeds for the gas giants) and therefore, generally speaking, are similar to the actual gravity that would be experienced near the poles.;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#images"/>
+        <IRI>#weight</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://en.wikipedia.org/static/images/wikimedia-button.png;https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Weeghaak.JPG/56px-Weeghaak.JPG;https://wikimedia.org/api/rest_v1/media/math/render/svg/b686e2bc07c0af87ea258c83f56fac36a5d1dd54;https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Nitrolympics_TopFuel_2005.jpg/300px-Nitrolympics_TopFuel_2005.jpg;https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Weegschaal-1.jpg/125px-Weegschaal-1.jpg;https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Peso-Valdivia-dsc02545.jpg/220px-Peso-Valdivia-dsc02545.jpg;https://en.wikipedia.org/static/images/poweredby_mediawiki_88x31.png;https://wikimedia.org/api/rest_v1/media/math/render/svg/9e86941248155c30a7ccef9b1a332cbfb0c3ff73;https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/3199_-_Athens_-_Sto%C3%A0_of_Attalus_Museum_-_Bronze_weights_-_Photo_by_Giovanni_Dall%27Orto%2C_Nov_9_2009.jpg/220px-3199_-_Athens_-_Sto%C3%A0_of_Attalus_Museum_-_Bronze_weights_-_Photo_by_Giovanni_Dall%27Orto%2C_Nov_9_2009.jpg;https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1;https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Bascula_9.jpg/220px-Bascula_9.jpg;https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/WeightNormal.svg/250px-WeightNormal.svg.png;https://wikimedia.org/api/rest_v1/media/math/render/svg/54a9c4c547f4d6111f81946cad242b18298d70b7;https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Weighing_grain%2C_from_the_Babur-namah.jpg/170px-Weighing_grain%2C_from_the_Babur-namah.jpg;https://wikimedia.org/api/rest_v1/media/math/render/svg/b7849546eccb580f5309b602b3b1d6ee757cead8;https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Wiktionary-logo-v2.svg/40px-Wiktionary-logo-v2.svg.png;https://wikimedia.org/api/rest_v1/media/math/render/svg/9e047ceeeee03791be4df577b5cbaf85c5d05d43;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#videos"/>
+        <IRI>#weight</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.0.0-RC2) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,83 @@
+* Copyright (c) 2005-2006 Vladimir Fedorkov (http://astellar.com/)
+* All rights reserved.                                                         
+*                                                                              
+* Redistribution and use in source and binary forms, with or without
+* modification, are permitted provided that the following conditions
+* are met:
+* 1. Redistributions of source code must retain the above copyright
+*    notice, this list of conditions and the following disclaimer.
+* 2. Redistributions in binary form must reproduce the above copyright
+*    notice, this list of conditions and the following disclaimer in the
+*    documentation and/or other materials provided with the distribution.
+*
+* THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+* ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+* IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+* ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+* FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+* DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+* OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+* HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+* LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+* OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+* SUCH DAMAGE.
+
+**** ГДЕ ВЗЯТЬ? ****
+http://sourceforge.net/projects/php-crawler/
+
+**** ТРЕБОВАНИЯ ****
+
+* MySQL 3.23.56 или новее
+* PHP 4.0.6 или новее
+* вебсервер
+
+**** ДИСТРИБУТИВ ****
+
+search/ - Основная директория. 
+   search.php - Страница поиска по сайту.
+   index.html - Редирект на search.php
+
+search/crawler/ - Краулер (индексатор страниц) и библиотеки
+   _config.php - главный КОНФИГУРАЦИОННЫЙ файл. Не забудьте его отредактировать.
+   _crawler.php - библиотека функций краулера
+   _db.php - библиотека функций MySQL (врапперы)
+   _search.php - библиотека функций форматирования результатов и поисковые запросы
+   crawler.php - Краулер (индексатор)
+   crawler.sql - Структура SQL таблицы (MySQL 3.23.56+ compatble)
+
+search/contrib/ - HTML шаблон поисковой страницы.
+
+**** УСТАНОВКА И ЗАПУСК ****
+
+0. Это альфа версия. Работоспособность всех функций не гарантируется!
+
+1. Распакуйте архив в директорию web-сайта.
+
+2. Откройте файл search/crawler/_config.php и отредактируйте параметры 
+   подключения к БД MySQL. 
+   В этом же файле раскоментируйте строчку $CRAWL_LOCALE = "ru_RU";
+   В строке $CRAWL_ENTRY_POINT_URL укажите адрес своего сайта не забыв http://
+   Например: http://ru.asltellar.com
+
+3. Создайте таблицу в базе данных. 
+   Перейдите в директорию search/crawler и выполните команду:
+
+    mysql -u<username> -p<password> <databasename> < crawler.sql
+
+   в результате выполнения этой команды в Вашей БД появится таблица "phpcrawler_links".
+
+   Вы также можете скопировать содержимое файла в буфер обмена и создать 
+   таблицу с помощью например phpMyAdmin.
+
+4. Запустите индексатор обратившись к странице 
+	search/crawler/crawler.php 
+
+   или с помощью командной строки:
+
+    php -q crawler.php
+
+5. Поиск через search/search.php уже работает. Вуаля.
+
+6. Не забудьте написать мне свое мнение о php-crawler'е 
+   по адресу http://astellar.com/opensource/php-crawler/feedback.html
+   или http://community.livejournal.com/ru_webhosting/

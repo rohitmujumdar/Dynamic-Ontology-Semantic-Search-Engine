@@ -1,0 +1,50 @@
+/* PHP Crawler Styles */
+
+.s_text {
+   text-align: left;
+   /* font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; */
+}
+
+.s_text_small {
+   text-align: left;
+   font-size: 9px;
+   /* font-family: Verdana, Arial, Helvetica, sans-serif; */
+}
+
+.s_text_large_white {
+   text-align: left;
+   font-size: 14pt; /* 16px; */
+   /* font-family: Verdana, Arial, Helvetica, sans-serif; */
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+.resultstitle {
+   text-align: left;
+}
+
+.resultset .s_text {
+   padding-bottom: 12pt;
+}
+
+.tx_blue {
+   color: #1B2757;
+}
+
+.tx_url {
+   color: #4CA640;
+}
+
+.searchbox {
+   border: 1px black solid;
+   font-size: 10pt;
+   border-collapse: collapse;
+   background-color: #0075E8;
+   width: 100%;
+   vertical-align: middle;
+   text-align: center;
+}
+
+.resultset {
+   list-style-type: none;
+}

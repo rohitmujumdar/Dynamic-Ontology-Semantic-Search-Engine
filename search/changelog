@@ -1,0 +1,31 @@
+==== 0.8
+Engine redesigned
+
++ search.php: uses head.php and footer.php along with _config.php options for what to include in the top and bottom parts of the page
+* search.php: templated search results
++ _config.php: added HTML headers/footers options
++ _config.php: added crawling extension options
++ _config.php: added characters to use to represent words options
++ _config.php: added search options
+* _crawler.php: new way to add crawled pages into database
+* _db.php: safer mysql queries
++ _db.php: hash to text etc. conversion functions
++ _search.php: everything needed to search the new way
+* crawler.php: crawls as it should by making hashes of content
+
+==== 0.7.7
+* search.php: full URL is shown when page title is empty
++ crawler.php: Connection handling adder (Useful when you run crawler from browser)
++ crawler.php: Page size printing added
++ _crawler.php: HTML comments removal added
+* _crawler.php: URL locator fixed. Now matches URLs with spaces (href = "http//...")
+
+==== 0.7.6
+Several non-critical bugs fixed. 
+Broken redirect (I'm sorry) fixed.
+
+* crawler.php: page counter fixed
+* _config.php: config $CRAWL_DB_DISABLE_KEYS now false by default
+* _crawler.php: "FAILED" links was not removed from DB
+* _crawler.php: "SKIPPED" links recrawling fixed (unset_url_from_db function)
+* index.html: redirect to search.php fixed

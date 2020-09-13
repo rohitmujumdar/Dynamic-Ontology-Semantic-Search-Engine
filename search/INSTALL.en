@@ -1,0 +1,84 @@
+* Copyright (c) 2005-2006 Vladimir Fedorkov (http://astellar.com/)
+* All rights reserved.                                                         
+*                                                                              
+* Redistribution and use in source and binary forms, with or without
+* modification, are permitted provided that the following conditions
+* are met:
+* 1. Redistributions of source code must retain the above copyright
+*    notice, this list of conditions and the following disclaimer.
+* 2. Redistributions in binary form must reproduce the above copyright
+*    notice, this list of conditions and the following disclaimer in the
+*    documentation and/or other materials provided with the distribution.
+*
+* THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+* ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+* IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+* ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+* FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+* DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+* OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+* HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+* LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+* OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+* SUCH DAMAGE.
+
+**** LAST VERSION ****
+http://sourceforge.net/projects/php-crawler/
+
+**** REQUIREMENTS ****
+
+* MySQL 3.23.56 or higher
+* PHP 4.3 or higher
+* a webserver
+
+**** THIS PACKAGE ****
+
+search/ - website frontend. 
+   search.php - website search frontend.
+   index.html - simple redirect to search.php
+
+search/crawler/ - crawler & libraries
+   _config.php - main CONFIG file. Please don't forget to edit it.
+   _crawler.php - crawler library
+   _db.php - wrapper for MySQL functions
+   _search.php - Fulltext search helper library
+   crawler.php - PHP Crawler
+   crawler.sql - crawler table structure (MySQL 3.23.56+ compatble)
+
+search/contrib/ - search page template (pure html)
+
+**** INSTALLATION ****
+0. Remember. This is NOT a production release. Use it on your own risk.
+
+1. untar/gunzip package content to the website directory.
+   Directory must be accessible through the web.
+
+2. Open the file search/crawler/_config.php in an editor and edit the 
+   MySQL config lines and $CRAWL_ENTRY_POINT_URL to match your settings.
+   DO NOT FORGET to put http:// prefix!!!
+
+3. Create the necessary database tables.  Make sure you have created 
+   the database ahead of time. You should know your mysql username and
+   password as well.
+
+   Get into the search/crawler directory and run the following command:
+
+    mysql -u<username> -p<password> <databasename> < crawler.sql
+
+   this will create phpcrawler_links table.
+
+   You could also cut and paste the sql statements from crawler.sql into a 
+   package like phpMyAdmin or into your terminal window.
+
+4. Run crawler via the web search/crawler/crawler.php or using command line
+
+    php -q crawler.php
+
+5. Enjoy.
+
+6. Don't forget to send me your feedback via 
+	http://astellar.com/opensource/php-crawler/feedback.html 
+	or
+	http://community.livejournal.com/php_crawler/
+
+Thanks :)

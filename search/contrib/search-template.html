@@ -1,0 +1,93 @@
+<!--                                                                             
+ * Copyright (c) 2005-2006 Vladimir Fedorkov (http://astellar.com/)
+ * All rights reserved.                                                         
+ *                                                                              
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *-->
+
+<html>
+<head>
+<title>Search</title>
+<script>
+<!--
+function setfocus(){document.s.q.focus();}
+// -->
+</script>
+<style type="text/css">
+<!--
+.text {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px}
+.text_small {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px}
+.text_large_white {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; font-weight: bold}
+-->
+</style>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" OnLoad="setfocus()">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <form name="s" method="get" action="/search.html">
+    <tr> 
+      <td bgcolor="#0075E8" height="60" valign="middle" align="center"> 
+        <table border="0" cellspacing="10" cellpadding="0">
+          <tr valign="middle"> 
+            <td align="center" class="text_large_white">Search</td>
+            <td> 
+              <input type="text" name="q" class="text">
+            </td>
+            <td align="right"> 
+              <input type="submit" name="Submit" value="Go!" class="text">
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </form>
+  <!-- /header -->
+  <tr  valign="top"> 
+    <td align="center" valign="top"> 
+      <table width="100%" border="0" cellspacing="10" cellpadding="0">
+        <tr> 
+          <td class="text" align="left"> pages: | <a href="/search.html?q=__q__&p=__prev__" class="text">&lt;&lt; prev</a> | <a href="/search.html?q=__q__&p=__p__" class="text">__p_show__</a> | <span class="text"><b>__p_show__</b></span> | <a href="/search.html?q=__q__&p=__next__" class="text">next &gt;&gt;</a> </td>
+        </tr>
+        <!-- site info -->
+        <tr> 
+          <td class="text" align="left"><b>&#149; <a href="http://url" class="tx_blue"> Title</a></b> &#151; result text</td>
+        </tr>
+        <tr> 
+          <td class="text" align="left"><b>Nothing found</b></td>
+        </tr>
+        <tr> 
+          <td align="left" class="text" valign="top"> 
+            <hr>
+            pages: | <a href="/search.html?q=__q__&p=__prev__" class="text">&lt;&lt; prev</a> | <a href="/search.html?q=__q__&p=__p__" class="text">__p_show__</a> | <span class="text"><b>__p_show__</b></span> | <a href="/search.html?q=__q__&p=__next__" class="text">next &gt;&gt;</a> </td>
+        </tr>
+        <tr> 
+          <td align="right" class="text_small" valign="top">Powered by <a href="http://astellar.com/opensource/php-crawler/" target="_blank">PHP Crawler</a></td>
+        </tr>
+      </table>
+      <!-- footer -->
+    </td>
+  </tr>
+  <tr> 
+    <td align="center">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.modal-dialog {
+	position: absolute;
+	margin-top:0;
+	padding-top:0;
+	top: 25%;
+	left: 0;
+	right: 0;
+}
+
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	margin: 20px 0;
+}
+
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+textarea.form-control {
+	font-size: 20px;
+}
+
+table{
+    table-layout: fixed;
+}
+td{
+    word-wrap:break-word
+}
+
+/**
+ * CSS Spinner
+ */
+.signal {
+	position: absolute;
+
+	height: 60px;
+	width: 60px;
+	top: 40%;
+	left: 50%;
+	margin: -30px 0 0 -30px;
+
+	border: 5px solid #333;
+	border-radius: 60px;
+
+	opacity: 0;
+
+	animation: pulsate 1s ease-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+	0% {
+		transform: scale(.1);
+		opacity: 0.0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1.2);
+		opacity: 0;
+	}
+}
+
+/**
+ * Footer
+ */
+.footer {
+	position: absolute;
+	bottom: 1px;
+	width: 100%;
+	height: 60px;
+	font-size: 15px;
+}
+
+.footer .container {
+	width: auto;
+	max-width: 680px;
+	padding: 0 15px;
+}
+
+.footer-text-muted {
+	margin: 20px 0;
+	color:#777;
+}
+
+#errorTitle {
+	font-weight: 600;
+	font-size: 50px;
+}
+
+#errorDescription {
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.vertical-center {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}

@@ -1,0 +1,50 @@
+.topstrip{
+    width:99%;
+    overflow-y: scroll;
+    position:fixed;
+    top:0px;
+    height:50px;
+    background-color: black;
+    color:white;
+    text-align: right;
+    font-size: 16px;
+    font-family: Georgia;
+}
+.topbar{
+    display:block;
+    width:100%;
+    overflow-y: scroll;
+    position:fixed;
+    top:50px;
+    bottom:65px;
+}
+.rounded-div-bot{
+    display:inline-block;
+    clear:left;
+    max-width:80%;
+    border-radius: 5px;
+    border:solid 1px black;
+    background-color: lightgreen;
+    float:right;
+    margin: 10px;
+    padding:5px;
+    min-height: 1em;
+}
+.rounded-div{
+    display:inline-block;
+    clear:right;
+    max-width:80%;
+    border-radius: 5px;
+    margin: 10px;
+    padding:5px;
+    border:solid 1px black;
+    background-color: lightgray;
+    float:left;
+}
+.inputbox{
+    outline:none;
+    width:98%;
+    height:40px;
+    position:fixed;
+    bottom:25px;
+}
